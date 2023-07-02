@@ -22,7 +22,7 @@
 
 1. このページにある *.user.js をダウンロードします。
 2. iOSの「ファイル」で任意のフォルダを作成します。
-3. AirDropなどで *.user.js を作ったフォルダに転送します。
+3. AirDropなどで *.user.js を作ったフォルダに転送します。受信アプリには「ファイル」を選択し、先ほど作ったフォルダにダウンロードします。
 4. [こちらの](https://github.com/quoid/userscripts) の App Store Linkから Userscriptsを導入します。
 5. Userscripts で先ほどつくったフォルダを指定します。
 6. 「設定 → Safari → 機能拡張 → UserScripts」と移動する
