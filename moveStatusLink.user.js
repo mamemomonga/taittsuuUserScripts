@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         タイッツー拡張_ステータスのリンクをタイツアイコンに移動
-// @namespace    https://gist.github.com/mamemomonga/7ec40576bfcd030c73804c64e80a9116
+// @namespace    https://github.com/mamemomonga/taittsuuUserScripts/blob/main/moveStatusLink.user.js
 // @version      0.1.1
 // @description  ポスト詳細のリンクをアイコンに移動し、ポスト内容のコピペをやりやすくする。
 // @author       mamemomonga

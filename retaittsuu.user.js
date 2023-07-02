@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         タイッツー拡張_リタイーツ
-// @namespace    https://gist.github.com/mamemomonga/6b34d0ab18fff66e03811dadfad17c6e
+// @namespace    https://github.com/mamemomonga/taittsuuUserScripts/blob/main/retaittsuu.user.js
 // @version      0.1.6
 // @description  タイッツーのリタイーツをとりあえず動くようにしました
 // @author       mamemomonga
