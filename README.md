@@ -6,7 +6,7 @@
 
 ##  [タイッツー Plus](https://github.com/ikasoba/taittsuu-plus)のすすめ
 
-より快適に利用したい場合はより高機能な[タイッツー Plus](https://github.com/ikasoba/taittsuu-plus)のご利用をおすすめします。引用URLをプレビューしたり、リンクを有効にすることができます。[ステータスのリンクをタイツアイコンに移動](./moveStatusLink.user.js)との併用も可能です。
+より快適に利用したい場合はより高機能な[タイッツー Plus](https://github.com/ikasoba/taittsuu-plus)のご利用をおすすめします。引用URLをプレビューしたり、本文のリンクを有効にすることができます。[ステータスのリンクをタイツアイコンに移動](./moveStatusLink.user.js)との併用も可能です。
 
 # インストール方法
 
