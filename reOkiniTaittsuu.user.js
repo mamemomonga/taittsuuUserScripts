@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         タイッツー拡張_リタイーツ_お気にタイツ
+// @name         タイッツー拡張_リタイーツ
 // @namespace    https://github.com/mamemomonga/taittsuuUserScripts/blob/main/reOkiniTaittsuu.user.js
-// @version      0.1.0
-// @description  タイッツーのリタイーツとお気にタイツ
+// @version      0.1.1
+// @description  タイッツーのリタイーツ
 // @author       mamemomonga
 // @match        https://taittsuu.com/home
 // @match        https://taittsuu.com/users/*
@@ -22,18 +22,9 @@
                 $("#taiitsuInput").val("♻リタイーツ\n"+t.mesRef(e))
                 Taittsuu.Post.showTaiitsuDialog()
             }
-            window.execOkiniTaittsuu=function(e) {
-                $("#taiitsuInput").val("❤お気にタイツ\n"+t.mesRef(e))
-                Taittsuu.Post.showTaiitsuDialog()
-            }
             $(".post-rt-button")
             .html('[<i class="fas fa-retweet"></i>]')
             .attr("onClick","window.execReTaittsuu(this)")
-
-            $(".post-like-button")
-            .html('[<i class="fas fa-heart"></i>]')
-            .attr("onClick","window.execOkiniTaittsuu(this)")
-
         },
         mesRef: function(e) {
             const ft=$(e).parent().parent()
