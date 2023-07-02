@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         タイッツー拡張_リタイーツ
 // @namespace    https://github.com/mamemomonga/taittsuuUserScripts/blob/main/reOkiniTaittsuu.user.js
-// @version      0.1.1
+// @version      0.1.2
 // @description  タイッツーのリタイーツ
 // @author       mamemomonga
 // @match        https://taittsuu.com/home
@@ -29,8 +29,8 @@
         mesRef: function(e) {
             const ft=$(e).parent().parent()
             const username    = ft.find(".post-link-user .post-user-name .post-user-name-value").text()
-            const tid         = ft.find(".post-link-user .post-infos .post-user-tid").text()
-            const posttime    = ft.find(".post-link-user .post-infos .post-time").text()
+            const tid         = ft.find(".post-user-tid").text()
+            const posttime    = ft.find(".post-time").text()
             const postcontent = ft.find(".post-link-post .post-content").html().replace(/\<br\>/g,'\n')
             return username+" ("+tid+" "+posttime+")\n"+postcontent
         }
